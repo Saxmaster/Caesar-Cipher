@@ -80,8 +80,8 @@ public class Cypher
 				
 				System.out.print("Enter your shift key:");
 				shift = input.nextInt();
-		        System.out.print("Input the message to be converted: ");
-		        message = input.nextLine(); //to skip the Enter ^
+		        	System.out.print("Input the message to be converted: ");
+		        	message = input.nextLine(); //to skip the Enter ^
 				message = input.nextLine();
 				
 				StringBuilder builder = new StringBuilder(); //allow the characters to change 1 at a time
